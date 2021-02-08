@@ -1,24 +1,63 @@
-body, html {
-    font-family: "Roboto", sans-serif; 
-    background-image: url('../img/lighthouse-5622924_1920_2.jpg');
+body {
+    margin: 0;
+    font-family: "Roboto","Raleway";
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/lighthouse-5622924_1920.jpg");
+  }
+
+  canvas {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    background-image: rgba(0,0,0,0);
     background-repeat: no-repeat;
-    background-position: top;
-    
-}
-h1{
-    display: inline;
-    padding: 10px 20px;
-    color:white;
-    font-size: 4em;
-    border: 3px solid white;
-    border-radius: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
 
-}
-.myname{
+  .header{
     text-align: center;
-    margin-top: 50px;
-    opacity: 0.9;
-    
-}
 
+  }
+  .name {
+    display: inline-block;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -143px;
+    padding: 5px 20px;
+    color:whitesmoke;
+    font-size: 60px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    text-transform: uppercase;
 
+  }
+
+  p{
+    color: whitesmoke;
+    display: inline-block;
+    position: absolute;
+    margin-top: 200px;
+  }
+
+  .w3-row{
+    position: relative;
+    /* margin-top: 200px; */
+    max-width: 1140px;
+    margin: 200px auto;
+  }
+
+  .w3-third{
+    color: blanchedalmond;
+    display: inline;
+    position: relative;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+ 
