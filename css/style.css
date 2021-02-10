@@ -46,14 +46,12 @@ body {
     border-radius: 10px;
     text-transform: uppercase;
     font-weight: 300;
-
+    cursor: pointer;
+    /* transition: 3s; */
   }
 
-  /* p{
-    color: whitesmoke;
-    display: inline-block;
-    position: absolute;
-    margin-top: 200px;
+  /* .name:hover{
+    transform: scale(1.05);
   } */
 
   .w3-row{
@@ -91,6 +89,8 @@ body {
   img:hover{
     transform: scale(1.1);
   }
+ 
+
 
 
 
