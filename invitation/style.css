@@ -29,11 +29,11 @@ img{
 .s-carusel{max-width:500px; height: 500px; padding: 0 10px;}
 .mySlides {display:none;}
 .animate-reduce {
-    margin: auto 30px;
+    margin: auto 25px;
     background: none;
     border: solid 1px burlywood;
     border-radius: 20px;
-    font-size: 42px;
+    font-size: 40px;
     text-align: center;
     color: burlywood;
     animation: animate_reduce 2s infinite;
