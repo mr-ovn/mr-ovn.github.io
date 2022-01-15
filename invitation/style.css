@@ -29,7 +29,7 @@ img{
 .s-carusel{max-width:500px; height: 500px; padding: 0 10px;}
 .mySlides {display:none;}
 .animate-reduce {
-    margin: auto 40px;
+    margin: auto 30px;
     background: none;
     border: solid 1px burlywood;
     border-radius: 20px;
