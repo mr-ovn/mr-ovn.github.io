@@ -26,7 +26,7 @@ img{
     border: solid 3px #f4ea0b; 
     border-radius: 3px;
 }
-.s-carusel{max-width:500px; height: 500px;padding:8px;}
+.s-carusel{max-width:500px; height: 500px; padding: 0 10px;}
 .mySlides {display:none;}
 .animate-reduce {
     margin: auto 50px;
