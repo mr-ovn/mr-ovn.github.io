@@ -12,6 +12,12 @@ body{
 img{
     width: 100%;
 }
+.svg{
+    width: 50px; 
+    background: white; 
+    border: 3px solid white; 
+    border-radius: 25px;
+}
 .txt-obj{color: burlywood;}
 .txt-prigl{color: #e06f44;}
 .txt-date{color: burlywood}
