@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+}
+body{
+    background: linear-gradient(90deg, #96d2fd, #58b0e9) no-repeat fixed;
+    background-color: black; 
+    text-align: center;
+}
+.w3-sofia {
+    font-family: Sofia, cursive;
+}
+img{
+    width: 100%;
+}
+
+.txt-obj{color: yellow;}
+.txt-prigl{color: hsl(0, 53%, 48%);}
+.txt-date{color: yellow}
+.img-sun{margin: 0; width:100%;max-width:100px;}
+.div-box{
+    max-width: 600px; 
+    width: 100%; 
+    align-content: 
+    center; 
+    margin: 20px auto; 
+    padding: 0px; 
+    border: solid 3px yellow; 
+    border-radius: 3px;
+}
+.s-carusel{max-width:500px; height: 500px; padding: 0 10px;}
+.mySlides {display:none;}
+.animate-reduce {
+    margin: auto 25px;
+    background: none;
+    border: solid 3px yellow;
+    border-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(224, 64, 64);
+    animation: animate_reduce 2s infinite;
+    }
+    .animate-reduce:hover {
+        animation: none;
+    }
+    @keyframes animate_reduce {
+        0% {
+            transform: scale3d(1, 1, 1);
+        }
+        50% {
+            transform: scale3d(0.9, 0.9, 0.9);
+        }
+        100% {
+            transform: scale3d(1, 1, 1);
+        }
+    }
+    a {
+        color: #e06f44;
+        font-size: 30px;
+        text-decoration: none;
+    }
